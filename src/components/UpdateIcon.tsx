@@ -13,13 +13,13 @@ const UpdateTask: React.FC<UpdateTaskProps> = ({ currentText, onUpdate }) => {
     <div className="flex mb-2">
       <input
         type="text"
-        className="flex pl-5 border-2 rounded w-[26rem] h-[2.6rem] bg-gray-800 border-gray-900 text-white"
+        className="flex pl-5 border-2 rounded w-[26rem] h-[2.6rem]"
         value={updatedText}
         onChange={(e) => setUpdatedText(e.target.value)}
       />
       <Button
         onClick={() => onUpdate(updatedText)}
-        className="absolute p-2 ml-[19rem] text-lg font-semibold text-white uppercase bg-gray-900 rounded-r hover:bg-gray-950 h-[2.6rem]"
+        className="absolute p-2 ml-[19rem] text-lg font-semibold text-white uppercase bg-blue-700 rounded-r hover:bg-blue-500 h-[2.6rem]"
       >
         Update
       </Button>
