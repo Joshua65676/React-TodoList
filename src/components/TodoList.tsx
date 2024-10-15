@@ -70,7 +70,7 @@ const TodoList: React.FC = () => {
         />
         <Button
           onClick={addTask}
-          className="absolute p-2 ml-[19rem] text-lg font-semibold text-white uppercase bg-blue-700 rounded-r hover:bg-blue-500 h-[2.6rem]"
+          className="xl:absolute p-2 xl:ml-[19rem] text-lg font-semibold text-white uppercase bg-blue-700 rounded-r hover:bg-blue-500 h-[2.6rem]"
         >
           Add Task
         </Button>
